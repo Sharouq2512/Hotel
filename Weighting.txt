@@ -1,0 +1,54 @@
+Weighting and Estimation (Hotel Management System)
+1. Story Point Estimation Techniques
+
+Story points are a relative measure of effort required to implement a user story. They consider complexity, risk, and the amount of work rather than actual hours. Story points help development teams estimate work more consistently, plan sprints, and manage workload.
+
+Common story point estimation techniques include:
+
+Planning Poker: Each team member assigns a story point value to a user story using cards. After discussion, the team reaches consensus. For example, implementing online room booking might be rated as 8 points due to integration with payment systems, while generating a simple report may be 2 points.
+
+T-Shirt Sizing: Stories are categorized as Extra Small (XS), Small (S), Medium (M), Large (L), or Extra Large (XL) based on relative effort. XS may represent a simple task like updating guest details, while XL could be building an online reservation system.
+
+Dot Voting: Team members vote on story complexity using dots. The story with the most votes for higher complexity is assigned higher story points.
+
+Affinity Estimation: Stories are grouped based on similarity in effort. Team members first sort stories into “small,” “medium,” or “large” piles and then assign story points.
+
+2. Methods of Estimation
+
+In addition to story points, other estimation methods may be used:
+
+Expert Judgment: Experienced team members provide effort estimates based on past projects and knowledge of system complexity.
+
+Three-Point Estimation: Calculates effort using optimistic, pessimistic, and most likely estimates. The formula is:
+Estimated Effort = (Optimistic + 4 × Most Likely + Pessimistic) / 6
+This helps account for uncertainty in tasks like integrating third-party booking services.
+
+Historical Data: Previous similar user stories or tasks are used as a reference to estimate new stories. For example, if adding one type of report took 3 story points before, adding a similar report now might be estimated similarly.
+
+3. Weighting User Stories
+
+Weighting user stories helps prioritize them in the product backlog based on multiple factors:
+
+Complexity: The technical difficulty of implementing a story. For example, a feature like online payment integration is more complex than updating a guest profile. Higher complexity increases story points.
+
+Priority: The urgency or importance of a story to stakeholders. For instance, enabling room booking before check-in is high priority, while generating internal management reports might be medium priority.
+
+Business Value: The potential benefit or revenue impact of a story. Features directly affecting guests, like online booking or payment, have higher business value than internal housekeeping updates.
+
+A common approach to weighting stories is to combine these factors: high-complexity but high-business-value stories may be given medium priority if they require significant effort but deliver crucial functionality. Conversely, low-complexity, high-value stories might be implemented first to deliver quick wins.
+
+4. Applying Weighting and Estimation in a Hotel System
+
+For a Hotel Management System:
+
+Assign story points to each user story (e.g., online booking = 8, invoice generation = 3, feedback form = 2).
+
+Assess the priority of each story based on business needs (e.g., bookings and payments are critical; reporting may be medium priority).
+
+Evaluate business value for stakeholders (e.g., features affecting revenue or guest experience get higher weighting).
+
+Use these values to plan sprints efficiently, ensuring that the team works on high-value, high-priority items first while balancing effort.
+
+Conclusion
+
+Weighting and estimation are essential for managing scope, effort, and delivery in Agile development. For a Hotel Management System, using story points, estimation techniques, and weighting by complexity, priority, and business value ensures that the development team focuses on delivering features that matter most to both the hotel and its guests while maintaining realistic timelines and resource allocation.
