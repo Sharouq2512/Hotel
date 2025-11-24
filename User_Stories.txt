@@ -1,0 +1,92 @@
+User Stories (Hotel Management System)
+1. Definition of User Stories and Their Format
+
+A user story is a simple, concise description of a software feature from the perspective of the end user. It focuses on what the user wants to achieve and why it is important, rather than how the feature will be implemented.
+
+The standard format of a user story is:
+
+“As a [type of user], I want [some feature] so that [some benefit].”
+
+For example:
+
+"As a guest, I want to book a room online so that I can confirm my stay before arriving at the hotel."
+
+User stories help the development team understand the user’s needs and prioritize features based on business value and user impact.
+
+2. How to Write Effective User Stories
+
+Effective user stories should follow these principles:
+
+Independent: Each story should be self-contained and not dependent on others.
+
+Negotiable: Stories are not contracts; details can be discussed and refined.
+
+Valuable: Every story should deliver value to the user or business.
+
+Estimable: The development team should be able to estimate the effort required to implement the story.
+
+Small: Stories should be small enough to be completed within a single sprint.
+
+Testable: Acceptance criteria must be clear so that the story can be verified as complete.
+
+3. Acceptance Criteria and Their Importance
+
+Acceptance criteria define the conditions that must be met for a user story to be considered complete and acceptable. They provide:
+
+Clear instructions for developers on what to implement
+
+A basis for testing and validation
+
+Agreement between stakeholders and developers on expected functionality
+
+For example, for the story: "As a guest, I want to book a room online so that I can confirm my stay," acceptance criteria could include:
+
+The guest can select check-in and check-out dates.
+
+The system shows available rooms and prices.
+
+Booking confirmation is sent via email.
+
+Double booking of the same room is prevented.
+
+4. Example User Stories for a Hotel Management System
+
+Room Booking
+As a guest, I want to book a room online so that I can secure my stay before arrival.
+Acceptance Criteria: Guests can select dates, view available rooms, confirm booking, and receive email confirmation.
+
+Check Room Availability
+As a receptionist, I want to check real-time room availability so that I can manage guest reservations efficiently.
+Acceptance Criteria: System displays occupied and vacant rooms accurately, updates in real-time.
+
+Guest Check-In
+As a receptionist, I want to check in guests quickly so that they can start their stay without delays.
+Acceptance Criteria: Guest details are verified, room status updated, and key card issued.
+
+Guest Check-Out
+As a receptionist, I want to process guest check-out smoothly so that billing and room availability are updated.
+Acceptance Criteria: Billing is generated, payments processed, and room status marked as available.
+
+Housekeeping Management
+As a housekeeping staff member, I want to view the daily cleaning schedule so that I can maintain room readiness.
+Acceptance Criteria: System lists rooms to be cleaned, marks completed tasks, and updates room status.
+
+Invoice Generation
+As an accountant, I want to generate invoices for guests so that billing is accurate and consistent.
+Acceptance Criteria: Invoice includes room charges, additional services, taxes, and payment confirmation.
+
+Online Payment
+As a guest, I want to pay online for my reservation so that I can avoid paying in cash at check-in.
+Acceptance Criteria: Payment gateway is secure, transactions are confirmed, and receipt is sent via email.
+
+Customer Feedback
+As a hotel manager, I want guests to submit feedback so that I can improve hotel services.
+Acceptance Criteria: Guests can submit ratings and comments; system generates summary reports.
+
+Report Generation
+As a manager, I want to generate daily occupancy and revenue reports so that I can monitor hotel performance.
+Acceptance Criteria: Reports display accurate occupancy, revenue, and guest data, and can be exported as PDF or Excel.
+
+User Account Management
+As a guest, I want to create and manage my account so that I can track reservations and payment history.
+Acceptance Criteria: Guests can register, log in, update personal details, and view past bookings.
