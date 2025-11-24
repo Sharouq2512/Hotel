@@ -1,0 +1,123 @@
+Complete Hotel Management System Example
+1. System Overview
+
+The Hotel Management System is designed to manage daily hotel operations, improve guest services, and streamline administrative tasks. Core modules include:
+
+Room Reservation and Booking
+
+Guest Check-In/Check-Out
+
+Housekeeping Management
+
+Billing and Invoicing
+
+Online Payments
+
+Customer Feedback
+
+Reporting and Analytics
+
+User Account Management
+
+The system is intended for guests, receptionists, housekeeping staff, accountants, and hotel managers.
+
+2. User Stories (15 Stories)
+
+Online Room Booking
+As a guest, I want to book a room online so that I can secure my stay before arrival.
+Acceptance Criteria: Guests can select dates, view available rooms, confirm booking, and receive email confirmation.
+Story Points: 8 | Priority: High | Business Value: High
+
+Check Room Availability
+As a receptionist, I want to check real-time room availability so that I can manage reservations efficiently.
+Acceptance Criteria: System shows all rooms with occupancy status and updates instantly.
+Story Points: 5 | Priority: High | Business Value: High
+
+Guest Check-In
+As a receptionist, I want to check in guests quickly so that they can start their stay without delays.
+Acceptance Criteria: Guest details verified, room assigned, key card issued, and room status updated.
+Story Points: 5 | Priority: High | Business Value: High
+
+Guest Check-Out
+As a receptionist, I want to process guest check-out smoothly so that billing and room availability are updated.
+Acceptance Criteria: Billing generated, payment confirmed, room status updated to available.
+Story Points: 5 | Priority: High | Business Value: High
+
+Housekeeping Schedule Management
+As a housekeeping staff member, I want to view and update the daily cleaning schedule so that rooms are ready for guests.
+Acceptance Criteria: Daily tasks displayed, status updated when completed, alerts for missed rooms.
+Story Points: 3 | Priority: Medium | Business Value: Medium
+
+Invoice Generation
+As an accountant, I want to generate invoices for guests so that billing is accurate and consistent.
+Acceptance Criteria: Invoices include room charges, taxes, additional services, and payment confirmation.
+Story Points: 3 | Priority: High | Business Value: High
+
+Online Payment
+As a guest, I want to pay online for my reservation so that I can avoid paying in cash at check-in.
+Acceptance Criteria: Secure payment gateway, payment confirmation, receipt sent via email.
+Story Points: 8 | Priority: High | Business Value: High
+
+Customer Feedback Submission
+As a hotel manager, I want guests to submit feedback so that I can improve hotel services.
+Acceptance Criteria: Guests can submit ratings/comments; system generates summary reports.
+Story Points: 3 | Priority: Medium | Business Value: Medium
+
+Report Generation
+As a manager, I want to generate daily occupancy and revenue reports so that I can monitor hotel performance.
+Acceptance Criteria: Reports display accurate occupancy, revenue, and guest statistics; can export PDF/Excel.
+Story Points: 5 | Priority: Medium | Business Value: High
+
+User Account Management
+As a guest, I want to create and manage my account so that I can track reservations and payment history.
+Acceptance Criteria: Guests can register, log in, update profile, and view past bookings.
+Story Points: 5 | Priority: Medium | Business Value: Medium
+
+Room Upgrade Option
+As a guest, I want to request a room upgrade so that I can enjoy better facilities.
+Acceptance Criteria: Guests can request upgrades; system confirms availability and cost.
+Story Points: 3 | Priority: Low | Business Value: Medium
+
+Promotions and Discounts
+As a marketing manager, I want to apply promotions and discounts so that occupancy and revenue increase.
+Acceptance Criteria: Discount codes applied correctly; reports track promotion impact.
+Story Points: 3 | Priority: Low | Business Value: Medium
+
+Multi-language Support
+As an international guest, I want to use the system in my preferred language so that I can navigate easily.
+Acceptance Criteria: System supports multiple languages; language selection remembered per user.
+Story Points: 5 | Priority: Low | Business Value: Medium
+
+Notifications and Alerts
+As a receptionist, I want to receive alerts for upcoming reservations and check-outs so that I can prepare rooms in advance.
+Acceptance Criteria: Alerts sent automatically for reservations/check-outs; configurable by user.
+Story Points: 3 | Priority: Medium | Business Value: Medium
+
+Loyalty Program Integration
+As a guest, I want to earn loyalty points for stays so that I can redeem them for future discounts.
+Acceptance Criteria: Points calculated for each stay, redemption tracked, loyalty balance displayed.
+Story Points: 5 | Priority: Low | Business Value: Medium
+
+3. Product Backlog with Weighting
+
+The product backlog organizes these stories by story points, priority, and business value for sprint planning:
+
+High Priority / High Business Value: Online Room Booking, Check Room Availability, Guest Check-In/Check-Out, Online Payment, Invoice Generation
+
+Medium Priority / Medium Business Value: Housekeeping Management, Customer Feedback, Reporting, User Account Management, Notifications/Alerts
+
+Low Priority / Medium Business Value: Room Upgrade, Promotions & Discounts, Multi-language Support, Loyalty Program
+
+Story points guide effort estimation for sprint planning. High-point stories like Online Booking and Online Payment may span multiple sprints, while lower-point stories like Feedback or Alerts can be completed quickly.
+
+4. Summary
+
+This complete example demonstrates the application of SDLC concepts to a Hotel Management System, including:
+
+User Stories written in standard format with acceptance criteria
+
+Product Backlog organized by complexity, priority, and business value
+
+Weighting and Estimation using story points for sprint planning
+
+Coverage of Core Features such as booking, check-in/out, payments, housekeeping, reporting, and customer engagement
